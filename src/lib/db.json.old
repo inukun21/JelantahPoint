@@ -1,0 +1,393 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bayu Prasetio",
+      "email": "bayu@example.com",
+      "points": 200,
+      "role": "User",
+      "password": "password123",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Siti Aminah",
+      "email": "siti@example.com",
+      "points": 250,
+      "role": "User",
+      "password": "password123",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "points": 15,
+      "role": "User",
+      "password": "password123",
+      "image": ""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Sabun Cuci Piring",
+      "description": "Sabun cuci piring ramah lingkungan 450ml",
+      "points": 200,
+      "image": "/placeholder-image.jpg",
+      "category": "Kebersihan",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Shampoo Herbal",
+      "description": "Shampoo herbal alami tanpa bahan kimia 200ml",
+      "points": 300,
+      "image": "/placeholder-image.jpg",
+      "category": "Perawatan",
+      "stock": 32
+    },
+    {
+      "id": 3,
+      "name": "Voucher Bensin",
+      "description": "Voucher bensin senilai Rp 20.000",
+      "points": 500,
+      "image": "/placeholder-image.jpg",
+      "category": "Bahan Bakar",
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "name": "Pupuk Organik Cair",
+      "description": "Pupuk organik cair untuk tanaman hias 500ml",
+      "points": 150,
+      "image": "/placeholder-image.jpg",
+      "category": "Pertanian",
+      "stock": 25
+    },
+    {
+      "id": 5,
+      "name": "Set Alat Tulis Eco",
+      "description": "Set pensil dan buku catatan daur ulang",
+      "points": 100,
+      "image": "/placeholder-image.jpg",
+      "category": "Alat Tulis",
+      "stock": 40
+    },
+    {
+      "id": 6,
+      "name": "Tote Bag Kanvas",
+      "description": "Tas belanja kuat dan modis dari bahan kanvas",
+      "points": 400,
+      "image": "/placeholder-image.jpg",
+      "category": "Aksesori",
+      "stock": 15
+    }
+  ],
+  "dropPoints": [
+    {
+      "id": 1,
+      "name": "Drop Point Alun-Alun",
+      "address": "Jl. Jend. Sudirman, Cilacap Tengah",
+      "distance": "0.5 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.7212,
+      "longitude": 109.0069,
+      "phone": "0812-3456-7890",
+      "area": "Cilacap Tengah"
+    },
+    {
+      "id": 2,
+      "name": "Drop Point Teluk Penyu",
+      "address": "Jl. Pasir Emas, Cilacap Selatan",
+      "distance": "2.3 km",
+      "status": "Buka",
+      "hours": "09:00 - 18:00",
+      "latitude": -7.7365,
+      "longitude": 109.0253,
+      "phone": "0813-4567-8901",
+      "area": "Cilacap Selatan"
+    },
+    {
+      "id": 3,
+      "name": "Drop Point Gumilir",
+      "address": "Jl. Tentara Pelajar, Cilacap Utara",
+      "distance": "4.7 km",
+      "status": "Buka",
+      "hours": "08:00 - 20:00",
+      "latitude": -7.6953,
+      "longitude": 109.0305,
+      "phone": "0812-9876-5432",
+      "area": "Cilacap Utara"
+    },
+    {
+      "id": 4,
+      "name": "Drop Point Pasar Kroya",
+      "address": "Jl. Jend. Sudirman, Kroya",
+      "distance": "28 km",
+      "status": "Buka",
+      "hours": "07:00 - 16:00",
+      "latitude": -7.6322,
+      "longitude": 109.2486,
+      "phone": "0857-1234-5678",
+      "area": "Kroya"
+    },
+    {
+      "id": 5,
+      "name": "Drop Point Adipala",
+      "address": "Jl. Laut, Adipala",
+      "distance": "22 km",
+      "status": "Tutup",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.6811,
+      "longitude": 109.1558,
+      "phone": "0815-9876-1234",
+      "area": "Adipala"
+    },
+    {
+      "id": 6,
+      "name": "Drop Point Maos",
+      "address": "Jl. Raya Maos, Maos",
+      "distance": "18 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.6189,
+      "longitude": 109.1356,
+      "phone": "0812-5555-4444",
+      "area": "Maos"
+    },
+    {
+      "id": 7,
+      "name": "Drop Point Nusawungu",
+      "address": "Jl. Raya Nusawungu",
+      "distance": "35 km",
+      "status": "Buka",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.6534,
+      "longitude": 109.3245,
+      "phone": "0812-3333-2222",
+      "area": "Nusawungu"
+    },
+    {
+      "id": 8,
+      "name": "Drop Point Binangun",
+      "address": "Jl. Raya Binangun",
+      "distance": "30 km",
+      "status": "Buka",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.6654,
+      "longitude": 109.2876,
+      "phone": "0813-4444-5555",
+      "area": "Binangun"
+    },
+    {
+      "id": 9,
+      "name": "Drop Point Sampang",
+      "address": "Jl. Raya Sampang",
+      "distance": "20 km",
+      "status": "Tutup",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.5876,
+      "longitude": 109.1897,
+      "phone": "0812-6666-7777",
+      "area": "Sampang"
+    },
+    {
+      "id": 10,
+      "name": "Drop Point Jeruklegi",
+      "address": "Jl. Raya Jeruklegi",
+      "distance": "10 km",
+      "status": "Buka",
+      "hours": "09:00 - 17:00",
+      "latitude": -7.6253,
+      "longitude": 109.0061,
+      "phone": "0813-8888-9999",
+      "area": "Jeruklegi"
+    },
+    {
+      "id": 11,
+      "name": "Drop Point Kesugihan",
+      "address": "Jl. Serayu, Kesugihan",
+      "distance": "15 km",
+      "status": "Buka",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.6542,
+      "longitude": 109.0764,
+      "phone": "0811-7777-6666",
+      "area": "Kesugihan"
+    },
+    {
+      "id": 12,
+      "name": "Drop Point Kawunganten",
+      "address": "Jl. Raya Kawunganten",
+      "distance": "25 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.589,
+      "longitude": 108.9765,
+      "phone": "0812-9999-1111",
+      "area": "Kawunganten"
+    },
+    {
+      "id": 13,
+      "name": "Drop Point Bantarsari",
+      "address": "Jl. Raya Bantarsari",
+      "distance": "30 km",
+      "status": "Tutup",
+      "hours": "09:00 - 15:00",
+      "latitude": -7.5345,
+      "longitude": 108.9234,
+      "phone": "0856-2222-3333",
+      "area": "Bantarsari"
+    },
+    {
+      "id": 14,
+      "name": "Drop Point Kampung Laut",
+      "address": "Kawasan Segara Anakan",
+      "distance": "40 km",
+      "status": "Buka",
+      "hours": "08:00 - 14:00",
+      "latitude": -7.7001,
+      "longitude": 108.9001,
+      "phone": "0813-1111-0000",
+      "area": "Kampung Laut"
+    },
+    {
+      "id": 15,
+      "name": "Drop Point Sidareja",
+      "address": "Jl. Jenderal Sudirman, Sidareja",
+      "distance": "45 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.4856,
+      "longitude": 108.7944,
+      "phone": "0812-1111-2222",
+      "area": "Sidareja"
+    },
+    {
+      "id": 16,
+      "name": "Drop Point Gandrungmangu",
+      "address": "Jl. Raya Gandrungmangu",
+      "distance": "35 km",
+      "status": "Tutup",
+      "hours": "09:00 - 16:00",
+      "latitude": -7.5417,
+      "longitude": 108.8542,
+      "phone": "0856-7777-8888",
+      "area": "Gandrungmangu"
+    },
+    {
+      "id": 17,
+      "name": "Drop Point Kedungreja",
+      "address": "Jl. Raya Kedungreja",
+      "distance": "50 km",
+      "status": "Buka",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.5123,
+      "longitude": 108.7654,
+      "phone": "0812-4444-3333",
+      "area": "Kedungreja"
+    },
+    {
+      "id": 18,
+      "name": "Drop Point Patimuan",
+      "address": "Jl. Raya Patimuan",
+      "distance": "55 km",
+      "status": "Buka",
+      "hours": "08:00 - 16:00",
+      "latitude": -7.5789,
+      "longitude": 108.7432,
+      "phone": "0813-5555-6666",
+      "area": "Patimuan"
+    },
+    {
+      "id": 19,
+      "name": "Drop Point Cipari",
+      "address": "Jl. Ahmad Yani, Cipari",
+      "distance": "50 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.4333,
+      "longitude": 108.7667,
+      "phone": "0812-9999-0000",
+      "area": "Cipari"
+    },
+    {
+      "id": 20,
+      "name": "Drop Point Karangpucung",
+      "address": "Jl. Raya Karangpucung",
+      "distance": "60 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.4123,
+      "longitude": 108.8765,
+      "phone": "0812-7777-8888",
+      "area": "Karangpucung"
+    },
+    {
+      "id": 21,
+      "name": "Drop Point Cimanggu",
+      "address": "Jl. Raya Cimanggu",
+      "distance": "70 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.3654,
+      "longitude": 108.8234,
+      "phone": "0813-2222-1111",
+      "area": "Cimanggu"
+    },
+    {
+      "id": 22,
+      "name": "Drop Point Majenang",
+      "address": "Jl. Diponegoro, Majenang",
+      "distance": "80 km",
+      "status": "Buka",
+      "hours": "08:00 - 20:00",
+      "latitude": -7.2975,
+      "longitude": 108.7303,
+      "phone": "0813-3333-4444",
+      "area": "Majenang"
+    },
+    {
+      "id": 23,
+      "name": "Drop Point Wanareja",
+      "address": "Jl. Raya Wanareja",
+      "distance": "85 km",
+      "status": "Buka",
+      "hours": "08:00 - 17:00",
+      "latitude": -7.3234,
+      "longitude": 108.6789,
+      "phone": "0812-6666-5555",
+      "area": "Wanareja"
+    },
+    {
+      "id": 24,
+      "name": "Drop Point Dayeuhluhur",
+      "address": "Jl. Raya Dayeuhluhur",
+      "distance": "95 km",
+      "status": "Tutup",
+      "hours": "09:00 - 15:00",
+      "latitude": -7.2567,
+      "longitude": 108.6123,
+      "phone": "0857-8888-9999",
+      "area": "Dayeuhluhur"
+    }
+  ],
+  "depositRequests": [
+    {
+      "userId": 1,
+      "userName": "Bayu Prasetio",
+      "userEmail": "bayu@example.com",
+      "amount": 1,
+      "points": 100,
+      "method": "drop_point",
+      "location": "Drop Point Alun-Alun",
+      "contact": "",
+      "note": "",
+      "id": 1766757794017,
+      "status": "confirmed",
+      "date": "26 Desember 2025 pukul 21.03"
+    }
+  ]
+}
